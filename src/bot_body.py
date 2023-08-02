@@ -40,7 +40,7 @@ async def help(slash_inter):
     emb.add_field(name='/add [пользователь]', value='Разрешить пользователю присоединиться к вам.', inline=False)
     emb.add_field(name='/delete [пользователь]', value='Запретить пользователю присоединиться к вам.', inline=False)
     emb.add_field(name='/set [категории]', value='Привязать категорию где будут созданные голосовые каналы.', inline=False)
-    emb.set_author(name='Телеграм канал создателя', url='https://t.me/+fiOeCdYqePg0MDEy')
+    emb.set_author(name='Телеграм канал создателя', url='https://t.me/+ok3zStfHZsdjMTQy')
     await slash_inter.edit_original_response(embed=emb)
 
 @bot.slash_command(description='Создать персональный голосовой канал.')
